@@ -1,0 +1,57 @@
+version: "2"
+
+services:
+  mariadb:
+    image: wangxian/alpine-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    volumes:
+      - mariadb:/var/lib/mysql
+
+  php:
+    build:
+      context: dockerfiles
+      dockerfile: php
+    environment:
+      PHP_DOCROOT: WordPress # Relative path inside the /var/www/html/ directory.
+    links:
+      - memcached
+      - mailhog
+    volumes:
+      - ./://usr/share/nginx/html
+      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
+
+  nginx:
+    image: nginx:alpine
+    volumes_from:
+      - php
+    ports:
+      - "80:80"
+    depends_on: 
+      - php
+
+  pma:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: mariadb
+      PMA_USER: wordpress
+      PMA_PASSWORD: wordpress
+      PHP_UPLOAD_MAX_FILESIZE: 1G
+      PHP_MAX_INPUT_VARS: 1G
+    ports:
+     - "8001:80"
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8002:8025"
+
+  memcached:
+    image: memcached:alpine
+    ports:
+      - "11211:11211"
+volumes:
+  mariadb:

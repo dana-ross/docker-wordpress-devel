@@ -1,0 +1,74 @@
+[08-Jan-2017 04:39:16 UTC] PHP Notice:  Undefined property: batcache::$status_header in /usr/share/nginx/html/wp-content/plugins/batcache/advanced-cache.php on line 191
+[08-Jan-2017 04:39:34 UTC] PHP Notice:  Undefined property: batcache::$status_header in /usr/share/nginx/html/wp-content/plugins/batcache/advanced-cache.php on line 191
+[08-Jan-2017 04:42:00 UTC] PHP Notice:  Undefined property: batcache::$status_header in /usr/share/nginx/html/wp-content/plugins/batcache/advanced-cache.php on line 191
+[08-Jan-2017 04:48:00 UTC] PHP Notice:  Undefined variable: phpmailer in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 2512
+[08-Jan-2017 04:48:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Send() on null in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php:2512
+Stack trace:
+#0 /usr/share/nginx/html/WordPress/wp-settings.php(309): require()
+#1 /usr/share/nginx/html/wp-config.php(53): require_once('/usr/share/ngin...')
+#2 /usr/share/nginx/html/WordPress/wp-load.php(42): require_once('/usr/share/ngin...')
+#3 /usr/share/nginx/html/WordPress/wp-login.php(12): require('/usr/share/ngin...')
+#4 {main}
+  thrown in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 2512
+[08-Jan-2017 04:49:17 UTC] PHP Notice:  Undefined property: batcache::$status_header in /usr/share/nginx/html/wp-content/plugins/batcache/advanced-cache.php on line 191
+[08-Jan-2017 04:49:44 UTC] PHP Notice:  Undefined variable: phpmailer in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 177
+[08-Jan-2017 04:49:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Send() on null in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php:177
+Stack trace:
+#0 /usr/share/nginx/html/WordPress/wp-login.php(372): wp_mail('dave@davidmicha...', '[Test Site] Pas...', 'Someone has req...')
+#1 /usr/share/nginx/html/WordPress/wp-login.php(494): retrieve_password()
+#2 {main}
+  thrown in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 177
+[08-Jan-2017 04:49:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Send() on null in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php:216
+Stack trace:
+#0 /usr/share/nginx/html/WordPress/wp-login.php(372): wp_mail(Array, '[Test Site] Pas...', 'Someone has req...')
+#1 /usr/share/nginx/html/WordPress/wp-login.php(494): retrieve_password()
+#2 {main}
+  thrown in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 216
+[08-Jan-2017 05:12:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /usr/share/nginx/html/wp-content/mu-plugins/mail-debug.php on line 6
+[08-Jan-2017 05:21:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:21:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:21:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:21:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wordpress@example.com' not found or invalid function name in /usr/share/nginx/html/WordPress/wp-includes/class-wp-hook.php on line 298
+[08-Jan-2017 05:22:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:22:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /usr/share/nginx/html/wp-content/mu-plugins/mail-override.php on line 4
+[08-Jan-2017 05:22:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:22:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:22:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:22:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wordpress@example.com' not found or invalid function name in /usr/share/nginx/html/WordPress/wp-includes/class-wp-hook.php on line 298
+[08-Jan-2017 05:24:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:24:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:24:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:24:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wordpress@example.com' not found or invalid function name in /usr/share/nginx/html/WordPress/wp-includes/class-wp-hook.php on line 298
+[08-Jan-2017 05:25:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:25:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:25:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:25:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wordpress@example.com' not found or invalid function name in /usr/share/nginx/html/WordPress/wp-includes/class-wp-hook.php on line 298
+[08-Jan-2017 05:25:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:25:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:25:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:25:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wordpress@example.com' not found or invalid function name in /usr/share/nginx/html/WordPress/wp-includes/class-wp-hook.php on line 298
+[08-Jan-2017 05:25:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:25:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:25:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:25:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:25:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:25:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:25:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 1189
+[08-Jan-2017 05:25:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:25:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:25:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:25:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 1189
+[08-Jan-2017 05:26:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:26:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /usr/share/nginx/html/wp-content/mu-plugins/mail-override.php on line 4
+[08-Jan-2017 05:26:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:26:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /usr/share/nginx/html/wp-content/mu-plugins/mail-override.php on line 4
+[08-Jan-2017 05:26:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:26:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /usr/share/nginx/html/wp-content/mu-plugins/mail-override.php on line 4
+[08-Jan-2017 05:28:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:28:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:28:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:28:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 1189
+[08-Jan-2017 05:29:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; WP_Object_Cache has a deprecated constructor in /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php on line 121
+[08-Jan-2017 05:29:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 394
+[08-Jan-2017 05:29:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-login.php on line 407
+[08-Jan-2017 05:29:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/wp-content/plugins/memcached-redux/object-cache.php:121) in /usr/share/nginx/html/WordPress/wp-includes/pluggable.php on line 1189

@@ -9,8 +9,7 @@
  * @package WordPress
  * @generator GenerateWP.com
  */
-
-
+//phpinfo();die();
 /* MySQL settings */
 define( 'DB_NAME',     'wordpress' );
 define( 'DB_USER',     'wordpress' );
@@ -37,17 +36,15 @@ define('NONCE_SALT',       '++A;z8#OVW?kve t.#,+1=tx]g58q_c>0`p`ohI&!ac7&8+2,Qi-
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-define( 'WP_CONTENT_DIR', ABSPATH . "wp-content" );
+define( 'WP_CONTENT_DIR', dirname(__FILE__) . "/wp-content" );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
-define( 'WP_PLUGIN_DIR', ABSPATH . "plugins");
-define( 'WP_PLUGIN_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/plugins' );
-define( 'WPMU_PLUGIN_DIR ', ABSPATH . "mu-plugins");
-define( 'WPMU_PLUGIN_URL ', 'http://' . $_SERVER['HTTP_HOST'] . '/mu-plugins' );
 
 define( 'WP_DEBUG', false );
 define( 'SCRIPT_DEBUG', false );
 
-define('WP_CACHE', true);
+//global $memcached_servers;
+$memcached_servers = array('default' => array('memcached:11211'));
+define( 'WP_CACHE', true );
 
 /* Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

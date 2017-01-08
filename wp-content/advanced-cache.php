@@ -1,3 +1,3 @@
 <?php
 
-include WP_PLUGINS_DIR . "/batcache/advanced-cache.php";
+require dirname( __FILE__ ) . "/plugins/batcache/advanced-cache.php";

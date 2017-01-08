@@ -1,6 +1,6 @@
 [submodule "WordPress"]
 	path = WordPress
 	url = git@github.com:WordPress/WordPress.git
-[submodule "plugins/batcache"]
-	path = plugins/batcache
+[submodule "wp-content/plugins/batcache"]
+	path = wp-content/plugins/batcache
 	url = git@github.com:Automattic/batcache.git
