@@ -9,7 +9,7 @@
  * @package WordPress
  * @generator GenerateWP.com
  */
-//phpinfo();die();
+
 /* MySQL settings */
 define( 'DB_NAME',     'wordpress' );
 define( 'DB_USER',     'wordpress' );
