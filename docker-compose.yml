@@ -13,8 +13,8 @@ services:
 
   php:
     build:
-      context: dockerfiles
-      dockerfile: php
+      context: config/php
+      dockerfile: dockerfile
     environment:
       PHP_DOCROOT: WordPress # Relative path inside the /var/www/html/ directory.
     links:
