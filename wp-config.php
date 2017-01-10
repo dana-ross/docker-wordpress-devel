@@ -38,6 +38,7 @@ if ( !defined('ABSPATH') )
 
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . "/wp-content" );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
+define( 'WPMU_PLUGIN_DIR', dirname( __FILE__ ) . "/custom-mu-plugins" );
 
 define( 'WP_DEBUG', false );
 define( 'SCRIPT_DEBUG', false );
